@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HW7TestCase4Runner">
+    <test name="HW7TestCase4">
+        <parameter name="username" value="mngr294981"></parameter>
+        <parameter name="password" value="jupYjYz"></parameter>
+        <parameter name="id" value="84205"></parameter>
+        <classes>
+            <class name="cucumber.Homework.HW7_testCase4"></class>
+        </classes>
+    </test>
+
+</suite>
+       
+       
+             

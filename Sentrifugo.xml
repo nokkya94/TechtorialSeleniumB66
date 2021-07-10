@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Login Test" parallel="tests" thread-count="2">
+    <test name="Sentrifugo login Chrome">
+        <parameter name="userName" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+        <parameter name="driverName" value="chrome"></parameter>
+        <classes>
+            <class name="seleniumAllClasses.Sentrifugo.Tests.LoginTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Sentrifugo login Firefox">
+        <parameter name="userName" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+        <parameter name="driverName" value="firefox"></parameter>
+        <classes>
+            <class name="seleniumAllClasses.Sentrifugo.Tests.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>

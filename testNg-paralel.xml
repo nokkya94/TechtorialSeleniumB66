@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Parallel execution" thread-count="2" parallel="methods">
+    <test name="Navigate to amazon.com">
+        <parameter name="url" value="amazon"></parameter>
+        <classes>
+            <class name="seleniumAllClasses.TestNGAnnotations.ParallelExecution2"></class>
+        </classes>
+    </test>
+    <test name="Navigate to techtorialacademy.com">
+        <parameter name="url" value="techtorialacademy"></parameter>
+        <classes>
+            <class name="seleniumAllClasses.TestNGAnnotations.ParallelExecution2"></class>
+        </classes>
+    </test>
+</suite>
